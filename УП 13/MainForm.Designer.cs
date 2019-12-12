@@ -55,13 +55,20 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
+            this.ListFields = new System.Windows.Forms.ComboBox();
+            this.SearchTextBox = new System.Windows.Forms.TextBox();
+            this.ButtonSearch = new System.Windows.Forms.Button();
+            this.OutputData = new System.Windows.Forms.RichTextBox();
+            this.Refresh = new System.Windows.Forms.Button();
+            this.ListOrderBy = new System.Windows.Forms.ComboBox();
+            this.ButtonOrderBy = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // ButtonAddData
             // 
             this.ButtonAddData.Location = new System.Drawing.Point(27, 256);
             this.ButtonAddData.Name = "ButtonAddData";
-            this.ButtonAddData.Size = new System.Drawing.Size(200, 29);
+            this.ButtonAddData.Size = new System.Drawing.Size(216, 29);
             this.ButtonAddData.TabIndex = 40;
             this.ButtonAddData.Text = "Добавить";
             this.ButtonAddData.UseVisualStyleBackColor = true;
@@ -115,41 +122,41 @@
             // 
             this.textBoxQuantityInStock.Location = new System.Drawing.Point(27, 218);
             this.textBoxQuantityInStock.Name = "textBoxQuantityInStock";
-            this.textBoxQuantityInStock.Size = new System.Drawing.Size(200, 22);
+            this.textBoxQuantityInStock.Size = new System.Drawing.Size(216, 22);
             this.textBoxQuantityInStock.TabIndex = 32;
             // 
             // textBoxManufacturer
             // 
             this.textBoxManufacturer.Location = new System.Drawing.Point(27, 128);
             this.textBoxManufacturer.Name = "textBoxManufacturer";
-            this.textBoxManufacturer.Size = new System.Drawing.Size(200, 22);
+            this.textBoxManufacturer.Size = new System.Drawing.Size(216, 22);
             this.textBoxManufacturer.TabIndex = 31;
             // 
             // textBoxPrice
             // 
             this.textBoxPrice.Location = new System.Drawing.Point(27, 173);
             this.textBoxPrice.Name = "textBoxPrice";
-            this.textBoxPrice.Size = new System.Drawing.Size(200, 22);
+            this.textBoxPrice.Size = new System.Drawing.Size(216, 22);
             this.textBoxPrice.TabIndex = 30;
             // 
             // textBoxKindOfSport
             // 
             this.textBoxKindOfSport.Location = new System.Drawing.Point(27, 83);
             this.textBoxKindOfSport.Name = "textBoxKindOfSport";
-            this.textBoxKindOfSport.Size = new System.Drawing.Size(200, 22);
+            this.textBoxKindOfSport.Size = new System.Drawing.Size(216, 22);
             this.textBoxKindOfSport.TabIndex = 29;
             // 
             // textBoxName
             // 
             this.textBoxName.Location = new System.Drawing.Point(27, 38);
             this.textBoxName.Name = "textBoxName";
-            this.textBoxName.Size = new System.Drawing.Size(200, 22);
+            this.textBoxName.Size = new System.Drawing.Size(216, 22);
             this.textBoxName.TabIndex = 28;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(513, 19);
+            this.label7.Location = new System.Drawing.Point(27, 649);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(78, 17);
             this.label7.TabIndex = 43;
@@ -157,51 +164,51 @@
             // 
             // DeleteButton
             // 
-            this.DeleteButton.Location = new System.Drawing.Point(516, 67);
+            this.DeleteButton.Location = new System.Drawing.Point(24, 697);
             this.DeleteButton.Name = "DeleteButton";
-            this.DeleteButton.Size = new System.Drawing.Size(197, 23);
+            this.DeleteButton.Size = new System.Drawing.Size(216, 23);
             this.DeleteButton.TabIndex = 42;
             this.DeleteButton.Text = "Удалить";
             this.DeleteButton.UseVisualStyleBackColor = true;
             // 
             // DeleteTextBox1
             // 
-            this.DeleteTextBox1.Location = new System.Drawing.Point(516, 39);
+            this.DeleteTextBox1.Location = new System.Drawing.Point(24, 669);
             this.DeleteTextBox1.Name = "DeleteTextBox1";
-            this.DeleteTextBox1.Size = new System.Drawing.Size(197, 22);
+            this.DeleteTextBox1.Size = new System.Drawing.Size(216, 22);
             this.DeleteTextBox1.TabIndex = 41;
             // 
             // textBoxUpdateQuantityInStock
             // 
-            this.textBoxUpdateQuantityInStock.Location = new System.Drawing.Point(268, 263);
+            this.textBoxUpdateQuantityInStock.Location = new System.Drawing.Point(24, 561);
             this.textBoxUpdateQuantityInStock.Name = "textBoxUpdateQuantityInStock";
             this.textBoxUpdateQuantityInStock.Size = new System.Drawing.Size(216, 22);
             this.textBoxUpdateQuantityInStock.TabIndex = 55;
             // 
             // textBoxUpdatePrice
             // 
-            this.textBoxUpdatePrice.Location = new System.Drawing.Point(268, 218);
+            this.textBoxUpdatePrice.Location = new System.Drawing.Point(24, 516);
             this.textBoxUpdatePrice.Name = "textBoxUpdatePrice";
             this.textBoxUpdatePrice.Size = new System.Drawing.Size(216, 22);
             this.textBoxUpdatePrice.TabIndex = 54;
             // 
             // textBoxUpdateManufacturer
             // 
-            this.textBoxUpdateManufacturer.Location = new System.Drawing.Point(271, 173);
+            this.textBoxUpdateManufacturer.Location = new System.Drawing.Point(27, 471);
             this.textBoxUpdateManufacturer.Name = "textBoxUpdateManufacturer";
             this.textBoxUpdateManufacturer.Size = new System.Drawing.Size(216, 22);
             this.textBoxUpdateManufacturer.TabIndex = 53;
             // 
             // textBoxUpdateKindOfSport
             // 
-            this.textBoxUpdateKindOfSport.Location = new System.Drawing.Point(271, 128);
+            this.textBoxUpdateKindOfSport.Location = new System.Drawing.Point(27, 426);
             this.textBoxUpdateKindOfSport.Name = "textBoxUpdateKindOfSport";
             this.textBoxUpdateKindOfSport.Size = new System.Drawing.Size(216, 22);
             this.textBoxUpdateKindOfSport.TabIndex = 52;
             // 
             // textBoxUpdateName
             // 
-            this.textBoxUpdateName.Location = new System.Drawing.Point(271, 83);
+            this.textBoxUpdateName.Location = new System.Drawing.Point(27, 381);
             this.textBoxUpdateName.Name = "textBoxUpdateName";
             this.textBoxUpdateName.Size = new System.Drawing.Size(216, 22);
             this.textBoxUpdateName.TabIndex = 51;
@@ -209,7 +216,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(268, 18);
+            this.label8.Location = new System.Drawing.Point(24, 316);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(219, 17);
             this.label8.TabIndex = 50;
@@ -217,7 +224,7 @@
             // 
             // UpdateDataButton
             // 
-            this.UpdateDataButton.Location = new System.Drawing.Point(268, 291);
+            this.UpdateDataButton.Location = new System.Drawing.Point(24, 589);
             this.UpdateDataButton.Name = "UpdateDataButton";
             this.UpdateDataButton.Size = new System.Drawing.Size(216, 29);
             this.UpdateDataButton.TabIndex = 49;
@@ -226,7 +233,7 @@
             // 
             // textBoxId
             // 
-            this.textBoxId.Location = new System.Drawing.Point(271, 38);
+            this.textBoxId.Location = new System.Drawing.Point(27, 336);
             this.textBoxId.Name = "textBoxId";
             this.textBoxId.Size = new System.Drawing.Size(216, 22);
             this.textBoxId.TabIndex = 48;
@@ -234,7 +241,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(268, 63);
+            this.label6.Location = new System.Drawing.Point(24, 361);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(72, 17);
             this.label6.TabIndex = 63;
@@ -243,7 +250,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(268, 108);
+            this.label9.Location = new System.Drawing.Point(24, 406);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(83, 17);
             this.label9.TabIndex = 64;
@@ -252,7 +259,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(268, 153);
+            this.label10.Location = new System.Drawing.Point(24, 451);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(110, 17);
             this.label10.TabIndex = 65;
@@ -261,7 +268,7 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(265, 198);
+            this.label11.Location = new System.Drawing.Point(21, 496);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(43, 17);
             this.label11.TabIndex = 66;
@@ -270,17 +277,97 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(265, 243);
+            this.label12.Location = new System.Drawing.Point(21, 541);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(86, 17);
             this.label12.TabIndex = 67;
             this.label12.Text = "Количество";
             // 
+            // ListFields
+            // 
+            this.ListFields.FormattingEnabled = true;
+            this.ListFields.Items.AddRange(new object[] {
+            "id",
+            "Название",
+            "Вид спорта",
+            "Производитель",
+            "Цена",
+            "Количество"});
+            this.ListFields.Location = new System.Drawing.Point(471, 18);
+            this.ListFields.Name = "ListFields";
+            this.ListFields.Size = new System.Drawing.Size(197, 24);
+            this.ListFields.TabIndex = 68;
+            // 
+            // SearchTextBox
+            // 
+            this.SearchTextBox.Location = new System.Drawing.Point(471, 48);
+            this.SearchTextBox.Name = "SearchTextBox";
+            this.SearchTextBox.Size = new System.Drawing.Size(197, 22);
+            this.SearchTextBox.TabIndex = 69;
+            // 
+            // ButtonSearch
+            // 
+            this.ButtonSearch.Location = new System.Drawing.Point(471, 76);
+            this.ButtonSearch.Name = "ButtonSearch";
+            this.ButtonSearch.Size = new System.Drawing.Size(197, 23);
+            this.ButtonSearch.TabIndex = 70;
+            this.ButtonSearch.Text = "Поиск";
+            this.ButtonSearch.UseVisualStyleBackColor = true;
+            // 
+            // OutputData
+            // 
+            this.OutputData.Location = new System.Drawing.Point(697, 0);
+            this.OutputData.Name = "OutputData";
+            this.OutputData.Size = new System.Drawing.Size(273, 746);
+            this.OutputData.TabIndex = 71;
+            this.OutputData.Text = "";
+            // 
+            // Refresh
+            // 
+            this.Refresh.Location = new System.Drawing.Point(494, 704);
+            this.Refresh.Name = "Refresh";
+            this.Refresh.Size = new System.Drawing.Size(197, 33);
+            this.Refresh.TabIndex = 72;
+            this.Refresh.Text = "Обновить";
+            this.Refresh.UseVisualStyleBackColor = true;
+            this.Refresh.Click += new System.EventHandler(this.Refresh_Click);
+            // 
+            // ListOrderBy
+            // 
+            this.ListOrderBy.FormattingEnabled = true;
+            this.ListOrderBy.Items.AddRange(new object[] {
+            "id",
+            "Название",
+            "Вид спорта",
+            "Производитель",
+            "Цена",
+            "Количество"});
+            this.ListOrderBy.Location = new System.Drawing.Point(471, 136);
+            this.ListOrderBy.Name = "ListOrderBy";
+            this.ListOrderBy.Size = new System.Drawing.Size(197, 24);
+            this.ListOrderBy.TabIndex = 73;
+            // 
+            // ButtonOrderBy
+            // 
+            this.ButtonOrderBy.Location = new System.Drawing.Point(471, 166);
+            this.ButtonOrderBy.Name = "ButtonOrderBy";
+            this.ButtonOrderBy.Size = new System.Drawing.Size(197, 23);
+            this.ButtonOrderBy.TabIndex = 74;
+            this.ButtonOrderBy.Text = "Сортировать";
+            this.ButtonOrderBy.UseVisualStyleBackColor = true;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(950, 564);
+            this.ClientSize = new System.Drawing.Size(1001, 749);
+            this.Controls.Add(this.ButtonOrderBy);
+            this.Controls.Add(this.ListOrderBy);
+            this.Controls.Add(this.Refresh);
+            this.Controls.Add(this.OutputData);
+            this.Controls.Add(this.ButtonSearch);
+            this.Controls.Add(this.SearchTextBox);
+            this.Controls.Add(this.ListFields);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
@@ -345,6 +432,13 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.ComboBox ListFields;
+        private System.Windows.Forms.TextBox SearchTextBox;
+        private System.Windows.Forms.Button ButtonSearch;
+        private System.Windows.Forms.RichTextBox OutputData;
+        private System.Windows.Forms.Button Refresh;
+        private System.Windows.Forms.ComboBox ListOrderBy;
+        private System.Windows.Forms.Button ButtonOrderBy;
     }
 }
 
