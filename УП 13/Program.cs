@@ -16,7 +16,7 @@ namespace УП_13
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainForm());
+            Application.Run(new InitialForm());
         }
     }
 }
